@@ -69,8 +69,14 @@ Siga os passos abaixo para configurar e executar o projeto:
 5.  **Executar os Testes**:
     ```bash
     cd src
-    python3 -m unittest test_main.py
+    python3 -m unittest test_main.py -v
     cd ..
+    ```
+    
+    Ou com pytest para relatórios mais detalhados:
+    ```bash
+    cd src
+    python3 -m pytest test_main.py -v --cov=main
     ```
 
 ### Resultados
@@ -82,6 +88,20 @@ Após a execução do `main.py`, dois arquivos CSV serão gerados na pasta `data
 *   `elbow_method.png`: Gráfico que auxilia na determinação do número ideal de clusters.
 *   `customer_segments.png`: Gráfico de dispersão mostrando os clientes agrupados por seus segmentos.
 
+#### Visualizações
+
+**Método do Cotovelo (Elbow Method)**
+
+![Elbow Method](docs/images/elbow_method.png)
+
+O gráfico acima mostra o método do cotovelo, que ajuda a determinar o número ideal de clusters. O "cotovelo" indica onde adicionar mais clusters não reduz significativamente o WCSS (Within-Cluster Sum of Squares).
+
+**Segmentação de Clientes**
+
+![Customer Segments](docs/images/customer_segments.png)
+
+Este gráfico mostra os 5 segmentos de clientes identificados pelo algoritmo K-Means, baseados em sua Renda Anual e Pontuação de Gastos. Cada cor representa um cluster diferente, permitindo uma análise visual clara dos diferentes perfis de clientes.
+
 ### Badges
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
@@ -89,10 +109,24 @@ Após a execução do `main.py`, dois arquivos CSV serão gerados na pasta `data
 ![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-lightgrey?style=for-the-badge&logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-red?style=for-the-badge&logo=matplotlib)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.11%2B-purple?style=for-the-badge&logo=seaborn)
+![Tests](https://github.com/galafis/Customer-Segmentation-Analysis/actions/workflows/tests.yml/badge.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ### Autor
 
 **Gabriel Demetrios Lafis**
+
+### Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### Contribuindo
+
+Contribuições são bem-vindas! Por favor, leia [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre nosso código de conduta e o processo para enviar pull requests.
+
+### GitHub Pages
+
+Visite a [página do projeto](https://galafis.github.io/Customer-Segmentation-Analysis/) para uma visualização interativa e detalhada.
 
 ---
 
@@ -165,8 +199,14 @@ Follow the steps below to set up and run the project:
 5.  **Run Tests**:
     ```bash
     cd src
-    python3 -m unittest test_main.py
+    python3 -m unittest test_main.py -v
     cd ..
+    ```
+    
+    Or with pytest for more detailed reports:
+    ```bash
+    cd src
+    python3 -m pytest test_main.py -v --cov=main
     ```
 
 ### Results
@@ -178,6 +218,20 @@ After running `main.py`, two CSV files will be generated in the `data/` folder a
 *   `elbow_method.png`: Plot that helps determine the optimal number of clusters.
 *   `customer_segments.png`: Scatter plot showing customers grouped by their segments.
 
+#### Visualizations
+
+**Elbow Method**
+
+![Elbow Method](docs/images/elbow_method.png)
+
+The chart above shows the elbow method, which helps determine the optimal number of clusters. The "elbow" indicates where adding more clusters does not significantly reduce the WCSS (Within-Cluster Sum of Squares).
+
+**Customer Segmentation**
+
+![Customer Segments](docs/images/customer_segments.png)
+
+This chart shows the 5 customer segments identified by the K-Means algorithm, based on their Annual Income and Spending Score. Each color represents a different cluster, allowing for a clear visual analysis of different customer profiles.
+
 ### Badges
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
@@ -185,8 +239,21 @@ After running `main.py`, two CSV files will be generated in the `data/` folder a
 ![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-lightgrey?style=for-the-badge&logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-red?style=for-the-badge&logo=matplotlib)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.11%2B-purple?style=for-the-badge&logo=seaborn)
+![Tests](https://github.com/galafis/Customer-Segmentation-Analysis/actions/workflows/tests.yml/badge.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ### Autor
 
 **Gabriel Demetrios Lafis**
 
+### Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### Contribuindo
+
+Contribuições são bem-vindas! Por favor, leia [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre nosso código de conduta e o processo para enviar pull requests.
+
+### GitHub Pages
+
+Visite a [página do projeto](https://galafis.github.io/Customer-Segmentation-Analysis/) para uma visualização interativa e detalhada.

@@ -142,3 +142,6 @@ Thumbs.db
 *.gif
 *.csv
 !docs/images/.gitkeep
+!docs/images/*.png
+!data/customer_data.csv
+!data/segmented_customer_data.csv

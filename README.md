@@ -69,8 +69,14 @@ Siga os passos abaixo para configurar e executar o projeto:
 5.  **Executar os Testes**:
     ```bash
     cd src
-    python3 -m unittest test_main.py
+    python3 -m unittest test_main.py -v
     cd ..
+    ```
+    
+    Ou com pytest para relatórios mais detalhados:
+    ```bash
+    cd src
+    python3 -m pytest test_main.py -v --cov=main
     ```
 
 ### Resultados
@@ -109,6 +115,18 @@ Este gráfico mostra os 5 segmentos de clientes identificados pelo algoritmo K-M
 ### Autor
 
 **Gabriel Demetrios Lafis**
+
+### Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### Contribuindo
+
+Contribuições são bem-vindas! Por favor, leia [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre nosso código de conduta e o processo para enviar pull requests.
+
+### GitHub Pages
+
+Visite a [página do projeto](https://galafis.github.io/Customer-Segmentation-Analysis/) para uma visualização interativa e detalhada.
 
 ---
 
@@ -181,8 +199,14 @@ Follow the steps below to set up and run the project:
 5.  **Run Tests**:
     ```bash
     cd src
-    python3 -m unittest test_main.py
+    python3 -m unittest test_main.py -v
     cd ..
+    ```
+    
+    Or with pytest for more detailed reports:
+    ```bash
+    cd src
+    python3 -m pytest test_main.py -v --cov=main
     ```
 
 ### Results
@@ -222,3 +246,14 @@ This chart shows the 5 customer segments identified by the K-Means algorithm, ba
 
 **Gabriel Demetrios Lafis**
 
+### Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+### Contribuindo
+
+Contribuições são bem-vindas! Por favor, leia [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes sobre nosso código de conduta e o processo para enviar pull requests.
+
+### GitHub Pages
+
+Visite a [página do projeto](https://galafis.github.io/Customer-Segmentation-Analysis/) para uma visualização interativa e detalhada.

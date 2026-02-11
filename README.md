@@ -109,7 +109,6 @@ Este gráfico mostra os 5 segmentos de clientes identificados pelo algoritmo K-M
 ![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-lightgrey?style=for-the-badge&logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-red?style=for-the-badge&logo=matplotlib)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.11%2B-purple?style=for-the-badge&logo=seaborn)
-![Tests](https://github.com/galafis/Customer-Segmentation-Analysis/actions/workflows/tests.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ### Autor
@@ -239,7 +238,6 @@ This chart shows the 5 customer segments identified by the K-Means algorithm, ba
 ![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-lightgrey?style=for-the-badge&logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-red?style=for-the-badge&logo=matplotlib)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.11%2B-purple?style=for-the-badge&logo=seaborn)
-![Tests](https://github.com/galafis/Customer-Segmentation-Analysis/actions/workflows/tests.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ### Autor
